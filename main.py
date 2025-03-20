@@ -93,7 +93,7 @@ def generatePassword() -> None:
         else:
             # Call the method that creates error messages informing the user
             # That they used an invalid input to allow/disallow capital letters from the password
-            printErrorMessage("Only the words \"Yes\" and \"No\" are allowed in the second textbox.")
+            printErrorMessage("ERROR: Only the words \"Yes\" and \"No\" are allowed in the second textbox.")
 
         # Create a local list of all the possible characters that can appear n the password
         charactersAllowed = determineArraySet(allowCapitals)
